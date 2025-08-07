@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>
+        <svg width="32" height="32" fill="currentColor" class="movie-icon" viewBox="0 0 24 24">
+          <path d="M10 4H2v16h20V4H10zM4 18V6h2v12H4zm14 0H8V6h10v12zm2 0h-2V6h2v12z"></path>
+        </svg>
+        Movie Explorer
+      </h1>
+      <p>Find your favorite movies using OMDb</p>
+    </header>
+
+    <section class="search-section">
+      <input type="text" id="query" placeholder="Search for a movie..." />
+      <button id="searchBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
+        </svg>
+        Search
+      </button>
+    </section>
+
+    <section id="movies" class="movie-grid"></section>
+  </div>
+  <!-- Modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <div id="modalDetails"></div>
+  </div>
+</div>
+
+
+  <script src="app.js" defer></script>
+</body>
+</html>
