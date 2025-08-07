@@ -1,22 +1,44 @@
-# MovieExplorer
-# 🎬 Movie Search App (OMDb API)
+# 🎬 OMDb Movie Search App
 
-## Overview
-This web app allows users to search for movies using the OMDb public API. It displays movie posters, titles, and release years, with detailed info available on click.
+A simple web app using the [OMDb API](https://www.omdbapi.com/) that allows users to search for movies by title and view details like poster, release year, and more in a cinematic UI.
 
-## OMDb Endpoints Used
-- `?s={search_term}` — for searching movie titles
-- `?i={imdb_id}` — for detailed info on a single movie
+---
 
-## Setup Instructions
-1. Clone or download the repository
-2. Open `index.html` in your browser
-3. Insert your OMDb API key in `app.js`:
-```js
-const apiKey = 'your_api_key_here';
-<img width="1840" height="913" alt="Screenshot 2025-08-07 080026" src="https://github.com/user-attachments/assets/1bc83158-219f-45eb-9662-695b3940e4c4" />
-<img width="1841" height="911" alt="Screenshot 2025-08-07 080051" src="https://github.com/user-attachments/assets/128743c3-3610-45ec-8870-d1e785ea73ce" />
-<img width="1846" height="903" alt="Screenshot 2025-08-07 080109" src="https://github.com/user-attachments/assets/85d003a8-8a4a-4810-8825-7f21ae4a79cf" />
-## 📸 Screenshot
+## 🚀 Features
 
-![App Screenshot](Screenshot1.png)
+- 🔍 Search for movies by title
+- 🖼️ Display poster, title, and year
+- 🎞️ Click to view additional movie info (genre, plot, runtime, etc.)
+- 📱 Responsive layout for all devices
+- 🌠 Animated cinematic background
+- 🎨 Stylish cards with hover effects and SVG icons
+
+---
+
+## 🧪 Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, animations)
+- JavaScript (Fetch API, DOM manipulation)
+- OMDb API
+
+---
+
+## 💻 Screenshots
+
+### 🖼️ Search Interface
+![Screenshot 1](screenshot1.png)
+
+### 🎬 Movie Results Grid
+![Screenshot 2](screenshot2.png)
+
+### 📋 Movie Details Popup
+![Screenshot 3](screenshot3.png)
+
+---
+
+## 🛠️ Setup Instructions
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/omdb-movie-search.git
