@@ -19,4 +19,4 @@ const apiKey = 'your_api_key_here';
 <img width="1846" height="903" alt="Screenshot 2025-08-07 080109" src="https://github.com/user-attachments/assets/85d003a8-8a4a-4810-8825-7f21ae4a79cf" />
 ## 📸 Screenshot
 
-![App Screenshot](screenshot1.png)
+![App Screenshot](Screenshot1.png)
