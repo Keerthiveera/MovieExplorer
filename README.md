@@ -41,4 +41,4 @@ A simple web app using the [OMDb API](https://www.omdbapi.com/) that allows user
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/omdb-movie-search.git
+   git clone https://github.com/Keerthiveera/MovieExplorer.git
