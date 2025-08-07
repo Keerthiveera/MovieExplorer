@@ -27,13 +27,13 @@ A simple web app using the [OMDb API](https://www.omdbapi.com/) that allows user
 ## 💻 Screenshots
 
 ### 🖼️ Search Interface
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](Screenshot1.png)
 
 ### 🎬 Movie Results Grid
-![Screenshot 2](screenshot2.png)
+![Screenshot 2](Screenshot2.png)
 
 ### 📋 Movie Details Popup
-![Screenshot 3](screenshot3.png)
+![Screenshot 3](Screenshot3.png)
 
 ---
 
